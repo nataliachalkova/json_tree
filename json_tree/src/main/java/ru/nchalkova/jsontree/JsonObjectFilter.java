@@ -52,6 +52,7 @@ public class JsonObjectFilter {
 			}
 		}
 		if ("root".equals(title) && !filterId.contains(id)) {
+			deleted.add(id);
 			obj.remove("id");
 			obj.remove("title");
 			obj.remove("type");
