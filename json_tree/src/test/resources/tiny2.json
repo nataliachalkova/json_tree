@@ -1,0 +1,12 @@
+{
+  "id": "fe13e84e-fa26-46fb-bd39-6b581dad9eb7",
+  "type": "data",
+  "title": "root",
+  "children": [
+    {
+      "id": "d6426ce9-e243-40b1-93f5-a1aaa3193a4c",
+      "type": "group",
+      "title": "first",   
+    }
+    ]
+}

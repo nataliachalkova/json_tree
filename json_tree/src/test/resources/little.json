@@ -1,0 +1,337 @@
+{
+  "id": "fe13e84e-fa26-46fb-bd39-6b581dad9eb7",
+  "type": "data",
+  "title": "root",
+  "children": [
+    {
+      "id": "d6426ce9-e243-40b1-93f5-a1aaa3193a4c",
+      "type": "group",
+      "title": "first",
+      "children": [
+        {
+          "id": "b3d888b1-c4f0-4337-87a3-d51961d81c0b",
+          "type": "class",
+          "title": "A",
+          "children": [
+            {
+              "id": "df0a218d-7a08-4295-abb7-e0bdfb835414",
+              "type": "color",
+              "title": "red",
+              "children": [
+                {
+                  "id": "7c451766-5f91-48f5-8db5-868e7cc95905",
+                  "type": "taste",
+                  "title": "sour",
+                  "children": [
+                    {
+                      "id": "2567b1f1-2662-48fd-a487-167e514ce5d8",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "29a73327-d5be-44cc-8c1d-e45ddb8be2b7",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "718d54cf-ce19-44e9-9a94-3214ef482dc2",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "f1f81f3a-be49-411d-b176-0d1e67f18864",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "ccbe91ef-7dec-4dc7-bbf5-ef79161670df",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "7b9ae76c-d189-4b44-9ea1-ea38b05d35ae",
+                  "type": "taste",
+                  "title": "bitter",
+                  "children": [
+                    {
+                      "id": "42b7f578-e907-475d-beb3-d1d53af1bec9",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "acaed672-d5df-43a2-9e30-5cf55f74b1ce",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "d4785d0b-9116-4361-8349-505934ceb9c9",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "7ee5494f-dc36-45e2-bc09-2ac948133523",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "0ded484b-78f2-497e-bdfe-c9bd2ba78368",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "5d0b1503-74f8-4e62-b501-37ed3c209cc9",
+                  "type": "taste",
+                  "title": "sweet",
+                  "children": [
+                    {
+                      "id": "1652cfd4-8855-47ee-b6c2-b55c1565f745",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "5b28ae05-3926-4e58-ae7b-72cfa84dd6b7",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "0604dec9-ea10-4025-b77f-435455eb3e6a",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "c5027e45-e818-40b5-b774-e176a28166a5",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "591e3c77-1e64-4b58-8a28-aa95a9dd74aa",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                }
+                                 ]
+            }
+          ]
+        },
+        {
+          "id": "c4756f1b-914f-4fa7-9754-d90310049767",
+          "type": "class",
+          "title": "B",
+          "children": [
+            {
+              "id": "ea579bb6-c6f7-401a-8117-aa0f9343b0cc",
+              "type": "color",
+              "title": "red",
+              "children": [
+                {
+                  "id": "4d1676a2-f54c-4800-abe9-bde5c38cab25",
+                  "type": "taste",
+                  "title": "sour",
+                  "children": [
+                    {
+                      "id": "c91a0039-d492-4aa6-8f90-bbf979a64ae8",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "2f06e3b2-d8b9-4a15-b558-e282de77fa81",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "43b32561-99c0-48e0-8f5e-aca228cdfbe5",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "611bbac0-9086-4bd9-8b58-06f3c462ba6a",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "b2992f81-a14e-45a8-b967-910f52b92e23",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "325da4e1-cd52-4dff-b62c-6ba9b42ae413",
+                  "type": "taste",
+                  "title": "bitter",
+                  "children": [
+                    {
+                      "id": "63a29afb-5136-4603-95df-94d5bed7a9c2",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "9ed176b3-c9f5-4d5d-aa1d-178072e6d82a",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "2fc20828-be5c-4110-9838-318f88be580e",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "e6385ccd-957c-4a5b-8ef6-8739a7725096",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "422bd8cc-2c99-416f-9649-239f75f199b6",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "97e81747-34ee-40e2-b62d-4e72f9c2fe1b",
+                  "type": "taste",
+                  "title": "sweet",
+                  "children": [
+                    {
+                      "id": "720a04bc-4746-4a19-9fe4-a4ae76cea116",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "8b070d3a-09d7-4e71-b27c-02be4ece94de",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "4c4dfa29-298c-4196-97db-aefacba25357",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "eb1b4638-1419-4b36-9cbc-c76397e207ab",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "4c7b602e-f3e6-4566-979e-9df39b33c69c",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "3422c46e-04ab-4830-930e-e3707eb65333",
+                  "type": "taste",
+                  "title": "salty",
+                  "children": [
+                    {
+                      "id": "33034025-0f6f-4b95-9993-6ab16b2591c9",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "33afeed4-429c-4ab3-8d49-6e3b5490a938",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "238e9eaa-06ce-4c8c-b9cf-e6ffe002fe0f",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "316602d6-2c5d-47ea-8a76-7a2b672dd683",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "b7851d0e-8945-4b28-8968-0285cb658cf0",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c369f682-bef9-413a-a7d8-0ad3091631a8",
+              "type": "color",
+              "title": "green",
+              "children": [
+                {
+                  "id": "eefaff85-04bf-4cd7-9f9d-e18d0b424063",
+                  "type": "taste",
+                  "title": "sour",
+                  "children": [
+                    {
+                      "id": "97598394-98e9-4332-97d1-7ccee7718d62",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "8f861b76-dd5d-4380-9b44-d5f8afe4f41f",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "e8b4f27f-2962-4edc-97d0-cc4c73daf337",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "62e77b49-79ec-4d23-afde-ba1f91ad7469",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "94f6b12a-ce1e-4456-80ae-82fb6a10cd62",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "875d78e7-fc32-4432-bd47-feae10ebd9a1",
+                  "type": "taste",
+                  "title": "salty",
+                  "children": [
+                    {
+                      "id": "8537d2d4-dc36-4b6d-9b6a-b2eab719d8a3",
+                      "type": "size",
+                      "title": "tiny"
+                    },
+                    {
+                      "id": "3ff12eaf-e44b-4a1f-bdc6-567bc1a14a5f",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "933573e4-bf9b-4240-9a7d-5a81a459a495",
+                      "type": "size",
+                      "title": "medium"
+                    },
+                    {
+                      "id": "ae1d2bb2-eb43-4413-a4f5-df94d428edec",
+                      "type": "size",
+                      "title": "large"
+                    },
+                    {
+                      "id": "0a3d8115-3b3a-4f81-aee8-4371057e6407",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                    
+                  ]
+                }
+              ]
+            }      
+       ]
+       }
+       ]
+       }]
+}
