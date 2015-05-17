@@ -8,10 +8,12 @@ import java.util.Set;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+/**
+ * Cut tree according to Set of id
+ * */
 public class JsonObjectFilter {
 	private Set<String> path = new HashSet<>();
 	private Set<String> filterId;
-	private int count = 0;
 	private Set<String> deleted = new HashSet<>();
 
 	public JsonObjectFilter(Set<String> ids) {
@@ -22,7 +24,6 @@ public class JsonObjectFilter {
 		String id = (String) obj.get("id");
 		String title = (String) obj.get("title");
 		JSONArray children = (JSONArray) obj.get("children");
-		count++;
 		// save children for current node
 		Map<String, JSONObject> currentChilds = new HashMap<>();
 
@@ -51,7 +52,7 @@ public class JsonObjectFilter {
 				}
 			}
 		}
-		if ("root".equals(title) && !filterId.contains(id)) {
+		if ("root".equals(title) && !filterId.contains(id) && !path.contains(id)) {
 			deleted.add(id);
 			obj.remove("id");
 			obj.remove("title");
@@ -59,11 +60,13 @@ public class JsonObjectFilter {
 		}
 	}
 
+	/**
+	 * Returns a set of deleted id
+	 * 
+	 * @return set of deleted id
+	 * */
 	public Set<String> getDeleted() {
 		return deleted;
 	}
 
-	public int getCountNodes() {
-		return count;
-	}
 }

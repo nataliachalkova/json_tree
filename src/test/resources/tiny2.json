@@ -6,7 +6,76 @@
     {
       "id": "d6426ce9-e243-40b1-93f5-a1aaa3193a4c",
       "type": "group",
-      "title": "first",   
-    }
-    ]
+      "title": "first",
+      "children": [
+        {
+          "id": "b3d888b1-c4f0-4337-87a3-d51961d81c0b",
+          "type": "class",
+          "title": "A",
+          "children": [
+            {
+              "id": "df0a218d-7a08-4295-abb7-e0bdfb835414",
+              "type": "color",
+              "title": "red",
+              "children": [
+                {
+                  "id": "7c451766-5f91-48f5-8db5-868e7cc95905",
+                  "type": "taste",
+                  "title": "sour",
+                  "children": [
+                    {
+                      "id": "29a73327-d5be-44cc-8c1d-e45ddb8be2b7",
+                      "type": "size",
+                      "title": "small"
+                    },
+                    {
+                      "id": "ccbe91ef-7dec-4dc7-bbf5-ef79161670df",
+                      "type": "size",
+                      "title": "huge"
+                    }
+                  ]
+                },
+                {
+                  "id": "7b9ae76c-d189-4b44-9ea1-ea38b05d35ae",
+                  "type": "taste",
+                  "title": "bitter",
+                  "children": [
+                    {
+                      "id": "acaed672-d5df-43a2-9e30-5cf55f74b1ce",
+                      "type": "size",
+                      "title": "small"
+                    }
+                  ]
+                }
+ ]
+            }
+          ]
+        },
+        {
+          "id": "c4756f1b-914f-4fa7-9754-d90310049767",
+          "type": "class",
+          "title": "B",
+          "children": [
+            {
+              "id": "ea579bb6-c6f7-401a-8117-aa0f9343b0cc",
+              "type": "color",
+              "title": "red"
+            },
+            {
+              "id": "c369f682-bef9-413a-a7d8-0ad3091631a8",
+              "type": "color",
+              "title": "green",
+              "children": [
+                {
+                  "id": "eefaff85-04bf-4cd7-9f9d-e18d0b424063",
+                  "type": "taste",
+                  "title": "sour"              
+                },
+              
+              ]
+            }      
+       ]
+       }
+       ]
+       }]
 }

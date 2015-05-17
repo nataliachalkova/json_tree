@@ -6,6 +6,10 @@ import java.util.Set;
 
 import org.json.simple.JSONObject;
 
+/**
+ * Json filter. It reads json from TEST_JSON file, filter by id in arguments and
+ * print the filtered json tree into a standard output.
+ * */
 public class TreeFilter {
 	private static final String TEST_JSON = "test.json";
 

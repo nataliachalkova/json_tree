@@ -11,6 +11,13 @@ import org.json.simple.parser.ParseException;
 
 public class JsonReader {
 
+	/**
+	 * Read json file from resources in jar: <user.dir>/src/main/resources/
+	 * 
+	 * @param jsonFileName
+	 *            file name
+	 * @return read and parsed JSONObject from jsonFileName
+	 * */
 	public JSONObject readJson(String jsonFileName) {
 		JSONObject jsonObject = null;
 
@@ -19,13 +26,13 @@ public class JsonReader {
 			JSONParser jsonParser = new JSONParser();
 			jsonObject = (JSONObject) jsonParser.parse(reader);
 		} catch (IOException | ParseException e) {
-			System.out.println("Cannot read file " + jsonFileName + " : " + e);
+			System.out.println("Cannot read file " + jsonFileName + " by reason: " + e);
 		}
 
 		return jsonObject;
 	}
 
-	private Path getPath(String fileName) {
+	Path getPath(String fileName) {
 		return Paths.get(System.getProperty("user.dir"), "src", "main", "resources", fileName);
 	}
 }
