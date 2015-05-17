@@ -16,7 +16,6 @@ public class JsonReaderTest {
 	@Before
 	public void setUp() throws Exception {
 		reader = mock(JsonReader.class);
-
 	}
 
 	@Test

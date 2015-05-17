@@ -9,7 +9,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 /**
- * Cut tree according to Set of id
+ * Filters ("Cut") tree according to set of id.
  * */
 public class JsonObjectFilter {
 	private Set<String> path = new HashSet<>();

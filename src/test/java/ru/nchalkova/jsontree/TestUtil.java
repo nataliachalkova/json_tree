@@ -9,6 +9,7 @@ import org.json.simple.JSONObject;
 
 public class TestUtil {
 	public static JSONObject readMockJson(String fileName) {
+		
 		JsonReader r = mock(JsonReader.class);
 		when(r.getPath(fileName)).thenReturn(Paths.get(System.getProperty("user.dir"), "src", "test", "resources", fileName));
 		when(r.readJson(fileName)).thenCallRealMethod();
